@@ -57,7 +57,7 @@ try{
             heading.textContent="Ingredients"
             fulldetails.appendChild(heading)
             
-            for (i=1;i<=20;i++){
+            for (i=1;i<=10;i++){
                let ingredient=document.createElement("p");
                 ingredient.textContent=meal["strIngredient"+i]
                 fulldetails.appendChild(ingredient)
